@@ -1,0 +1,8 @@
+version: '3.0'
+services:
+    db:
+        build: ./
+        restart: always
+        ports: 
+            - '27017:27017'
+      
