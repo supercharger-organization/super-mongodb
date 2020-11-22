@@ -1,1 +1,0 @@
-{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"SDB_Testing.boards"}],"uuid":"ffc7e75105f9443cbdb73374e95f36e5"}
