@@ -1,10 +1,10 @@
 docker-build:
 	docker build --tag super-mongodb:1.0 .
 
-docker-run-detached:
+docker-run-prod:
 	docker run -d --restart unless-stopped -p 27017:27017 --name super-mongodb super-mongodb:1.0
 
-docker-run:
+docker-run-dev:
 	docker run --restart unless-stopped -p 27017:27017 --name super-mongodb super-mongodb:1.0 
 
 ## DANGER ## 
